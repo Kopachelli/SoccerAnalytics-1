@@ -1,6 +1,5 @@
-#Loading the rvest package
+#Loading the R packages
 library('rvest')
-
 library(dplyr)
 library(tidyr)
 library(reshape2)
@@ -359,6 +358,7 @@ for (m_row in 1:nrow(mstats)) {
 
     # empty out the match_Df data frame
     match_stats_df<-match_stats_df[NULL,]
+    
 }
 
 #Structure of the data frame
