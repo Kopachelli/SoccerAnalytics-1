@@ -1,5 +1,5 @@
-# Northampton Town FC - Season 2017/18
+# Soccer Analytics
 
-Analytics on the league one 2017/18 season from Northampton Town FC.
+Data Science for Soccer.
 
-Web Scraping has been used to get data from the Sporting Life Website, and specifically reports on all league one matches for NTFC. The scripts produce some dataset source files for analysis.
+What better way to help my education and learning in Data Science, than to mix it with another passion I have, that of Soccer, or Football as we know it in the UK.
