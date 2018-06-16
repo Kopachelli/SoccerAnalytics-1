@@ -10,3 +10,6 @@ This is an R Script, utilisng the "rvest" package for webscraping. Data has been
 #### match_analysis.ipynb
 This is a python script, that will take the dataset files produced from the aformentioned R script above. The data is then read, and analysed visually via this script.
 
+#### Shiny App
+Using the R Shiny package, this provides an interactive dashboard for analysing the data produced in the above R web scraping script.
+
