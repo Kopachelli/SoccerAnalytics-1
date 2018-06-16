@@ -22,9 +22,18 @@ evt_classify <- function(evt) {
                     !(grepl("GOAL", evt, fixed = TRUE)) & !(grepl("ATTEMPT", evt, fixed = TRUE))) {
                     return(c("CORNER OPPOSITION"))
                 } else
-                    if (grepl("WINS A FREE KICK", evt, fixed = TRUE) & (grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
-                        return(c("FREE KICK COBBLERS"))
+                    if (grepl("WINS A FREE KICK IN THE ATTACKING HALF", evt, fixed = TRUE) & (grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
+                        return(c("FREE KICK COBBLERS - ATTACKING HALF"))
                     } else
+                        if (grepl("WINS A FREE KICK IN THE DEFENSIVE HALF", evt, fixed = TRUE) & (grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
+                            return(c("FREE KICK COBBLERS - DEFENSIVE HALF"))
+                        } else
+                            if (grepl("WINS A FREE KICK ON THE LEFT WING", evt, fixed = TRUE) & (grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
+                                return(c("FREE KICK COBBLERS - LEFT WING"))
+                            } else
+                                if (grepl("WINS A FREE KICK ON THE RIGHT WING", evt, fixed = TRUE) & (grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
+                                    return(c("FREE KICK COBBLERS - RIGHT WING"))
+                                } else
                         if (grepl("WINS A FREE KICK IN THE ATTACKING HALF", evt, fixed = TRUE) & !(grepl("NORTHAMPTON TOWN", evt, fixed = TRUE))) {
                             return(c("FREE KICK OPPOSITION - ATTACKING HALF"))
                         } else

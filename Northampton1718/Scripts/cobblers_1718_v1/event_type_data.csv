@@ -1,0 +1,28 @@
+Event Type,Description
+CORNER COBBLERS,Corner kick for the Cobblers
+CORNER OPPOSITION,Corner kick for the Opposition team
+FOUL COBBLERS,Foul committed by a cobblers player
+FOUL OPPOSITION,Foul committed by an opposition player
+FREE KICK COBBLERS - ATTACKING HALF,A cobblers player gains a free kick in the attacking half of the pitch
+FREE KICK COBBLERS - DEFENSIVE HALF,A cobblers player gains a free kick in the defensive half of the pitch
+FREE KICK COBBLERS - LEFT WING,A cobblers player gains a free kick on the left wing
+FREE KICK COBBLERS - RIGHT WING,A cobblers player gains a free kick on the right wing
+FREE KICK OPPOSITION - ATTACKING HALF,The Opposition team gain a free kick in the attacking half of the pitch
+FREE KICK OPPOSITION - DEFENSIVE HALF,The Opposition team gain a free kick in the defensive half of the pitch
+FREE KICK OPPOSITION - LEFT WING,The Opposition team gain a free kick on the left wing
+FREE KICK OPPOSITION - RIGHT WING,The Opposition team gain a free kick on the right wing
+GOAL ATTEMPT COBBLERS,A goal attempt is made by the Cobblers
+GOAL ATTEMPT OPPOSITION,A goal attempt is made by the opposition team
+GOAL OPPOSITION,A goal scored by the opposition
+HANDBALL COBBLERS,Handball committed by a cobblers player
+HANDBALL OPPOSITION,Handball committed by an opposition player
+INJURY COBBLERS,Injury to a cobblers player
+INJURY OPPOSITION,Injury to an opposition player
+PENALTY COBBLERS,Penalty to Cobblers
+PENALTY OPPOSITION,Penalty to Opposition team
+RED CARD COBBLERS,Red Card to a cobblers player
+RED CARD OPPOSITION,Red Card to an opposition player
+SUBSTITUTION COBBLERS,Substitution of a cobblers player
+SUBSTITUTION OPPOSITION,Substitution of an opposition player
+YELLOW CARD COBBLERS,Yellow Card to a cobblers player
+YELLOW CARD OPPOSITION,Yellow Card to an opposition player
